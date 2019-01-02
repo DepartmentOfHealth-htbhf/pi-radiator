@@ -1,0 +1,8 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+
+@xset s off
+@xset s noblank
+@xset -dpms
+
+@sh /home/pi/start_dashboard.sh
